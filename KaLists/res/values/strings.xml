@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">三十三所</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_save">保存</string>
+    <string name="tv_honson">本尊 : </string>
+    <string name="tv_syusi">宗旨 : </string>
+    <string name="tv_syozai">所在地 : </string>
+    <string name="tv_url">url : </string>
+    <string name="tv_content">感想</string>
+    <string name="tv_navi">寺院情報を入力してください </string>
+
+</resources>
