@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -38,7 +37,6 @@ public class SecondListActivity extends Activity {
 	 * 球団リスト画面で選択された球団名
 	 */
 	private String _selectedgroup = "";
-	private Context _context = null;
 
 
 	@Override
@@ -129,7 +127,9 @@ public class SecondListActivity extends Activity {
 		public void onItemClick(AdapterView<?>  parent, View view, int position,long id){
 
 			//選手名を取得
-	        String player = "筒香嘉智";
+			ListView listView = (ListView) parent;
+			String player = (String) listView.getItemAtPosition(position);
+
 
 	        //エンコード初期値
 	        String enc ="";

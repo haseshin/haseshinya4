@@ -15,7 +15,7 @@ import android.widget.ListView;
  * SA41 Androidサンプル　Chapter04 Ex01 データベース
  *
  * 第一画面表示用アクティビティクラス
- * お寺リストを表示する *
+ * 球団リストを表示する *
  * @author ohs05032
 */
 
